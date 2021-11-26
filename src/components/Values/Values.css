@@ -1,0 +1,35 @@
+.valueStyle{
+  margin-top: 25px;
+  background-image:linear-gradient(rgba(5, 10, 30, 0.8), rgba(5, 10, 30, 0.75)),url("https://turismo.buenosaires.gob.ar/sites/turismo/files/field/image/puente_de_la_mujer_puerto_madero_1500x610.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: "center";
+  background-size: "cover";
+  text-align: "left";
+
+   
+}
+.allValues{
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   text-align: start;
+
+}
+.everyValue{
+    color: white;
+    margin: 30px;
+    padding: 20px;
+}
+
+
+ @media only screen and (max-width:688px) {
+        .allValues{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        
+    }
+ @media only screen and (min-width:689px) and (max-width: 991px){
+        .allValues{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
